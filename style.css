@@ -397,9 +397,9 @@ header nav #burger::after {
     border-radius: 10%;
     box-shadow: 0 0 5px #1e272e inset;
 }
-@media only screen and (max-width:990px){
+@media only screen and (max-width:767px){
     .box { margin: 0 0 30px; }
 }
-@media only screen and (max-width:479px){
+@media only screen and (max-width:767px){
     .box .title{ font-size: 20px; }
 }
