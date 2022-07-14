@@ -15,6 +15,14 @@ body {
 	align-items: flex-start;
 }
 
+.hello {
+	font-size:25px;
+}
+
+.para{
+	font-size:17px ;
+}
+
 
 /******** HEADER ********/
 header{
@@ -41,11 +49,15 @@ header{
 header h1 {
 	color: #ffa198;
     font-family:'Secular One', sans-serif;
-	font-size: 50px;
+	font-size: 60px;
 }
 
 .nom {
-	margin-left: 30px;
+	margin-left: 50px;
+}
+
+header nav ul li {
+	font-size: 22px;
 }
 
 /******** MAIN ********/
@@ -191,7 +203,7 @@ main section article{
 /******** FOOTER ********/
 
 footer{
-	font-size: 20px;
+	font-size: 22px;
 	background-color: #ffa198;
 	color: white;
 	background-size: cover;
@@ -216,6 +228,10 @@ footer section {
 @media (max-width: 767px) {
 header nav ul {
 	display: none;
+}
+
+header nav ul li {
+	font-size: 30px;
 }
 
 header nav #burger {
@@ -402,6 +418,17 @@ header nav #burger::after {
 	.col-sm-6 {
 			flex: 0 0 auto;
 			width: 100%;}
+	.icone {
+		size: 50px;
+		}
+
+	.hello {
+			font-size: 35px;
+		}
+			
+	.para {
+		font-size: 25px;
+		}
 }
 @media only screen and (max-width:479px){
     .box .title{ font-size: 20px; }
